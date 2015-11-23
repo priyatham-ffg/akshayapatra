@@ -5,7 +5,7 @@
   <groupId>com.ffg.akshayapatra</groupId>
   <artifactId>akshayapatra-norms</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>war</packaging>
 
   <distributionManagement>
     <site>
