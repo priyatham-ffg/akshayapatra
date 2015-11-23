@@ -1,5 +1,7 @@
 package com.akshayapatra.rest;
 
+import java.util.List;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -13,7 +15,7 @@ public class UserRestService {
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public User getDefaultUsreInJSON(){
+	public List<User> getDefaultUsreInJSON(){
 		UserService userService = new UserService();
 		return userService.getDefaultUser();
 	}
